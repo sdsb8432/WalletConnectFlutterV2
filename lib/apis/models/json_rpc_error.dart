@@ -4,8 +4,8 @@ part 'json_rpc_error.g.dart';
 
 @JsonSerializable()
 class JsonRpcError {
-  final int code;
-  final String message;
+  final int? code;
+  final String? message;
 
   JsonRpcError({
     required this.code,
